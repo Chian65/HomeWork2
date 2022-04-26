@@ -1,0 +1,67 @@
+body {
+    font-family: Helvetica ;
+}
+
+.profilo > h1 {
+    color: navy;
+}
+
+.profilo {
+    width: 30%;
+}
+
+.bio {
+    border: solid 1px;
+    border-color: navy;
+    width: 69%;
+    padding: 0px 10px;
+    background-color: lightgray;
+}
+
+#flex-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 30px;
+}
+
+#paolo {
+    width: 60%;
+    padding-right: 10%;
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+    color: navy;
+}
+
+#column {
+    flex-direction: column;
+    display: flex;
+}
+
+
+a:hover {
+    background-color: yellow;
+    text-decoration: underline;
+}
+
+.bolded {
+    font-weight: bold;
+}
+
+a:visited {
+    color: navy;
+}
+
+.header-bar {
+    margin:20px 0px;
+    background-color: teal;
+}
+
+.text-bar {
+    color: white;
+    padding-left: 10px;
+    font-size: small;
+}
+
